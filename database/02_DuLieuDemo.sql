@@ -80,9 +80,9 @@ GO
    ================================================================ */
 IF NOT EXISTS(SELECT 1 FROM DonThue)
 BEGIN
-  DECLARE @KH1 INT=(SELECT MaNguoiDung FROM NguoiDung WHERE Email='khachhang@demo.vn');
-  DECLARE @KH2 INT=(SELECT MaNguoiDung FROM NguoiDung WHERE Email='khachhang2@demo.vn');
-  DECLARE @NVX INT=(SELECT MaNguoiDung FROM NguoiDung WHERE Email='nhanvien@demo.vn');
+  DECLARE @KH1 INT=(SELECT MaNguoiDung FROM NguoiDung WHERE Email='nguyen01@gmail.com');
+  DECLARE @KH2 INT=(SELECT MaNguoiDung FROM NguoiDung WHERE Email='nguyen02@gmail.com');
+  DECLARE @NVX INT=(SELECT MaNguoiDung FROM NguoiDung WHERE Email='nhanvien@gmail.com');
   DECLARE @Ls TABLE(STT INT,KH INT,BienSo VARCHAR(20),Nhan DATETIME2(0),Tra DATETIME2(0),TraThucTe DATETIME2(0));
   INSERT INTO @Ls VALUES
    (1,@KH1,'51H-567.89','2026-10-03 08:00','2026-10-06 08:00','2026-10-06 07:30'),
