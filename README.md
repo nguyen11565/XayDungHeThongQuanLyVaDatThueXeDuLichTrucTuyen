@@ -104,7 +104,7 @@ Sau đó mở trình duyệt tại địa chỉ: `http://localhost:5173`
 
 | Vai trò | Email | Mật khẩu | Chức năng chính |
 | :--- | :--- | :--- | :--- |
-| **Quản trị viên (`ADMIN`)** | `admin@demo.vn` | `123456` | Quản lý xe, loại xe, quy tắc phí, tài khoản, phân quyền RBAC, Audit Log, thống kê doanh thu |
-| **Nhân viên (`EMPLOYEE`)** | `nhanvien@demo.vn` | `123456` | Kiểm tra lịch, xác nhận/từ chối đơn, lập hợp đồng, giao xe, nhận trả xe, tính phụ phí, xử lý thanh toán |
-| **Khách hàng 1 (`CUSTOMER`)** | `khachhang@demo.vn` | `123456` | Tìm xe, kiểm tra trùng lịch, đặt xe, thanh toán Sandbox, xem hợp đồng, hủy đơn |
-| **Khách hàng 2 (`CUSTOMER`)** | `khachhang2@demo.vn` | `123456` | Dùng để kiểm thử chống trùng lịch và đặt xe đồng thời |
+| **Quản trị viên (`ADMIN`)** | `admin@gmail.com` | `123456` | Quản lý xe, loại xe, quy tắc phí, tài khoản, phân quyền RBAC, Audit Log, thống kê doanh thu |
+| **Nhân viên (`EMPLOYEE`)** | `nhanvien@gmail.com` | `123456` | Kiểm tra lịch, xác nhận/từ chối đơn, lập hợp đồng, giao xe, nhận trả xe, tính phụ phí, xử lý thanh toán |
+| **Khách hàng 1 (`CUSTOMER`)** | `nguyen01@mail.com` | `123456` | Tìm xe, kiểm tra trùng lịch, đặt xe, thanh toán Sandbox, xem hợp đồng, hủy đơn |
+| **Khách hàng 2 (`CUSTOMER`)** | `khachhang02@gmail.com` | `123456` | Dùng để kiểm thử chống trùng lịch và đặt xe đồng thời |
